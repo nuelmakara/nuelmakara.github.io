@@ -1,40 +1,40 @@
 <!DOCTYPE html>
     <html lang="en-US">
         <head>
-             <title>
-                 Pixel Art Maker!|NUEL MAKARA
-             </title>
+        <title>
+         Pixel Art Maker!|NUEL MAKARA
+            </title>
                 <meta charSet="utf-8"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
-                <link rel="stylesheet" href="styles.css">
-                <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-
-        </head>
+            <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      </head>
         <body>
-                <h1>
-                    Lab: Pixel Art Maker
-                </h1>
-                <h2>
-                    Choose Grid Size
-                </h2>
+              <h1>
+                Lab: Pixel Art Maker
+                  </h1>
+               <h2>
+                   Choose Grid Size
+                 </h2>
  <!-- Form for specifying the the Pixel Canvas size by the user starts here-->
-                <form id="sizePicker">
+                <form class="sizePicker">
                      Grid Height:
-                     <input type="number" id="inputHeight" name="height" min="1" value="1">
+                           <input type="number" class="inputHeight" name="height" min="1" value="1">
                      Grid Width:
-                     <input type="number" id="inputWidth" name="width" min="1" value="1">
+                           <input type="number" class="inputWidth" name="width" min="1" value="1">
                      <input type="submit">
                </form>
-     <!-- End of input area for size-->
+     <!-- End of input area for size -->
      <!-- Start of Canvas area-->
                <h2>
                    Pick A Color
-               </h2>
-                   <input type="color" id="colorPicker">
-               <h2>Design Canvas</h2>
-                   <table id="pixelCanvas"></table>
+                    </h2>
+                       <input type="color" class="colorPicker">
+                         <h2>Design Canvas</h2>
+                   <table class="pixelCanvas"></table>
          <!-- End of Canvas area-->
          <script src="designs.js"></script>
      </body>
+
  </html>
